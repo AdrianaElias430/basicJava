@@ -10,4 +10,9 @@ public class Hello2 {
 		String name = Input.get_string();
 		System.out.println("hello, "+ name );
 	}
+
+
+	public static void main2(String[] args) {
+
+	}
 }

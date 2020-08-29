@@ -1,0 +1,42 @@
+package dojo;
+
+import libs.Input;
+
+public class EjemploVariables {
+
+    static String nombre;
+    static String direccion;
+    static int edad;
+    static double peso;
+    static char sexo;
+    static double salario;
+
+    public static void main(String[] args) {
+        edad = 26;
+        peso = 65.45;
+        nombre = "Adriana Elias";
+        sexo = 'F';
+
+         salario = 25456.98;
+        metodo2();
+
+        int num1 = 5;
+        int num2 = 6;
+        int sumaNumeros = suma(num1, num2);
+        char inicial = dameInicial("Edder");
+    }
+
+    public static void metodo2() {
+        peso = 64.521;
+        edad = edad + 1;
+         salario = 45678.34;
+    }
+
+    public static int suma(int numero1, int numero2) {
+        return numero1 + numero2;
+    }
+
+    public static char dameInicial(String nombre) {
+        return nombre.charAt(0);
+    }
+}

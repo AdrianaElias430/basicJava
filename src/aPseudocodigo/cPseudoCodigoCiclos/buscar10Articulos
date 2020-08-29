@@ -1,0 +1,8 @@
+buscar10Articulos (){
+    numeroArticulo = 0;   //contador
+
+    while (numeroArticulo <10){   //while, condicion
+            buscarArticulo ()      //instrucciones
+            numeroArticulo = numeroArticulo + 1;
+    }
+}

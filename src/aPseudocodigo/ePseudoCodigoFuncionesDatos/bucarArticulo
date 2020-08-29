@@ -1,0 +1,41 @@
+buscarArticulo(nombreArticulo, precioMinimo, precioMaximo){ //parametros, datos e informacion
+    navegarAmazon()
+    ingresar el nombreArticulo en el campo de busqueda
+    dar clik en la lupita
+    ingresar el precioMinimo en el campo adecuado
+    ingresar el precioMaximo en el campo adecuado
+    dar clik en go
+    verificar que todos los articulos tiene el precio >= precioMinimo y precio <= precioMaximo
+}
+
+
+loginAmazon (usuario, contraseña) {
+
+}
+
+loginSinatra (usuario, contraseña){
+}
+
+crearCancion (titulo, duracion, fecha, letras) {
+
+}
+
+verificarPaginaPrincipal (){
+
+}
+
+buscarPelicula(nombrePelicula) {
+
+}
+
+verificarExistePelicula(nombrePelicula, anioPelicula) {
+
+}
+
+verificarElencoEstelar (listaActores){ //aqui podemos usar un arreglo o lista de elemtos
+
+}
+
+verificarEscritores (listaEscritores){
+
+}
